@@ -41,6 +41,7 @@ class MimickNet_SepConv():
           x = SeparableConv2D(filter_num, filter_shape, padding='same', kernel_regularizer=None)(x)
           x = Activation(activation=tf.nn.relu)(x)
 
-        x = SeparableConv2D(1, 1)(x)
+        # x = SeparableConv2D(1, 1)(x)
+        x = Conv2D(1, 1)(x)
 
         return Model(inputs, x)

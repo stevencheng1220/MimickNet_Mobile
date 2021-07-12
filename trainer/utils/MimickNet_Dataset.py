@@ -4,7 +4,7 @@ import tensorflow_addons as tfa
 
 
 """ MimickDataset with No Scan Convert """
-class MimickDataset_NoSC():
+class MimickDataset():
     def __init__(self, divisible, bs, dataset, data_dir):
         self.divisible = divisible
         self.bs = bs
