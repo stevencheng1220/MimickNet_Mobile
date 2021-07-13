@@ -1,9 +1,7 @@
 import tensorflow as tf
 import tensorflow_datasets as tfds
-import tensorflow_addons as tfa
 
-
-""" MimickDataset with No Scan Convert """
+""" MimickDataset"""
 class MimickDataset():
     def __init__(self, divisible, bs, dataset, data_dir):
         self.divisible = divisible
