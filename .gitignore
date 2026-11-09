@@ -3,3 +3,11 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 trainer/datasets/
+
+# Working plans, generated relay output and local documentation categories
+/plans/
+/.relay/
+/docs/technical_docs/
+/docs/research_docs/
+/docs/backlog_docs/
+/docs/plans/
